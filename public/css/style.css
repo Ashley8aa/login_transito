@@ -1,0 +1,93 @@
+/* Reset some default styles for form elements */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+/* Center the form vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Style the form container */
+.login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+/* Style the form container */
+.register-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Style the input fields */
+.login-form input[type="text"],
+.login-form input[type="password"],
+.register-form input[type="text"],
+.register-form input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+/* Style the form group to create space between label and input */
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Style the login and registration buttons */
+.login-form input[type="submit"],
+.register-form input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #007C5C;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Add hover effect for the buttons */
+.login-form input[type="submit"]:hover,
+.register-form input[type="submit"]:hover {
+    background-color: #005a44;
+}
+
+/* Style the Cancel link */
+.form-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-cancel {
+    text-decoration: none;
+    color: #007C5C;
+    margin-right: 10px;
+}
+
+/* Add hover effect for the Cancel link */
+.btn-cancel:hover {
+    color: #005a44;
+}

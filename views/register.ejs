@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="register-form">
+        <h1>Register</h1>
+        <form action="register" method="POST">
+          
+            <label for="user" class="right-align-label">Username</label>
+            <input type="text" name="user" required>
+           
+            <label for="name"  class="right-align-label">Name</label>
+            <input type="text" name="name" required>
+            
+            <label for="pass" class="right-align-label">Password</label>
+            <input type="password" name="pass" required> 
+             
+            <label for="email" class="right-align-label">Email</label>
+            <input type="text" name="email" required>
+
+            <div style="display: inline;">
+                <a href="/login" class="btn-cancel">Cancel</a><input type="submit" value="Save">
+
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
