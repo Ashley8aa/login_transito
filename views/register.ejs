@@ -18,17 +18,23 @@
             <input type="text" name="name" required>
             
             <label for="pass" class="right-align-label">Password</label>
-            <input type="password" name="pass" required> 
+            <input type="password" name="password" required> 
              
             <label for="email" class="right-align-label">Email</label>
             <input type="text" name="email" required>
 
-            <div style="display: inline;">
-                <a href="/login" class="btn-cancel">Cancel</a><input type="submit" value="Save">
-
+            <div class="checkbox-container">
+                <input type="checkbox" name="acceptTerms" required>
+                <label for="acceptTerms">Accept <a href="/terms" target="_blank">Terms and Conditions</a></label>
             </div>
+            
+            <div class="button-container">
+                <a href="/login" class="btn-cancel">Cancel</a>
+                <input type="submit" value="Save">
+            </div>
+
         </form>
     </div>
-    
+
 </body>
 </html>
